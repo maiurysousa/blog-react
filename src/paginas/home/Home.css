@@ -3,11 +3,21 @@
     text-align: center;
 }
 
+.imagem {
+    background-image: url("../../assets/img/back-page-2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    width: 500px;
+    background-size: cover;
+}
 .img{
-    width: 250px;
-    height: 250px;
     display: block;
     margin: 0 auto;
     border-radius: 100%;
-    border: 10px solid cyan;
+    border: 10px solid #FFE9C9;
+}
+
+.back-page{
+    background-color: #FCCBDE;
 }
