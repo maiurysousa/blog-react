@@ -10,7 +10,7 @@ function Footer() {
                 <Grid alignItems="center" item xs={12}>
                     <Box style={{ backgroundColor: "#FCCBDE", height: "120px" }}>
                         <Box paddingTop={1} display="flex" alignItems="center" justifyContent="center">
-                            <Typography variant="h5" align="center" gutterBottom style={{ color: "#000000" }}>Siga-nos nas redes sociais </Typography>
+                            <Typography variant="h5" align="center" gutterBottom style={{ color: "#7E4997", fontFamily:"Roboto Mono, monospace"}}>Siga-nos nas redes sociais </Typography>
                         </Box>
                         <Box display="flex" alignItems="center" justifyContent="center">
                             <a href="https://www.instagram.com/generationbrasil/" target="_blank">
@@ -21,13 +21,13 @@ function Footer() {
                             </a>
                         </Box>
                     </Box>
-                    <Box style={{ backgroundColor: "#FCCBDE", height: "60px" }}>
+                    <Box style={{ backgroundColor: "#7E4997", height: "60px" }}>
                         <Box paddingTop={1}>
-                            <Typography variant="subtitle2" align="center" gutterBottom style={{ color: "#7E4997" }} >© 2020 Copyright:</Typography>
+                            <Typography variant="subtitle2" align="center" gutterBottom style={{ color: "#FFE9C9", fontFamily:"Roboto Mono, monospace"}} >© 2020 Copyright:</Typography>
                         </Box>
                         <Box>
                             <a target="_blank" href="https://brasil.generation.org">
-                                <Typography variant="subtitle2" gutterBottom style={{ color: "#7E4997" }} align="center">brasil.generation.org</Typography>
+                                <Typography variant="subtitle2" gutterBottom style={{ color: "#FFE9C9", textDecoration:"none", fontFamily:"Roboto Mono, monospace"}} align="center">brasil.generation.org</Typography>
                             </a>
                         </Box>
                     </Box>

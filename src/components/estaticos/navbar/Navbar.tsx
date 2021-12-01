@@ -10,7 +10,7 @@ import './Navbar.css';
 function Navbar() {
     return (
         <Box sx={{ flexGrow: 1 }}>
-            <AppBar position="static" >
+            <AppBar position="static">
                 <Toolbar variant="dense" className="color-navbar">
                     <IconButton
                           size="large"
@@ -21,50 +21,37 @@ function Navbar() {
                     >
                         <MenuIcon />
                     </IconButton>
-                    <Box style={{ cursor: "pointer ", color:"#FFE9C9" }} >
-                        <Typography variant="h5" component="div" sx={{ flexGrow: 1 }}>
-                            BlogPessoal
-                        </Typography>
-                    </Box>
 
-                    <Box display="flex" justifyContent="start">
+                        <Box paddingX={3.5} style={{ cursor: "pointer ", color:"#FFE9C9"}} >
+                            <Typography variant="h5" component="div" sx={{ flexGrow: 1 }}  style={{fontFamily:"Roboto Mono, monospace" }}>
+                                BlogPessoal
+                            </Typography>
+                        </Box>
                         <Box mx={1} style={{ cursor: "pointer", color:"#FFE9C9" }}>
-                            <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-                                Home
+                            <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{fontFamily:"Roboto Mono, monospace" }}>
+                                home
                             </Typography>
                         </Box>
-                    </Box>
-
-                    <Box display="flex" justifyContent="start">
                         <Box mx={1} style={{ cursor: "pointer", color:"#FFE9C9" }}>
-                            <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-                                Postagens
+                            <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{fontFamily:"Roboto Mono, monospace" }}>
+                                postagens
                             </Typography>
                         </Box>
-                    </Box>
-
-
-                    <Box display="flex" justifyContent="start">
-                        <Box mx={1} style={{ cursor: "pointer ", color:"#FFE9C9" }}>
-                            <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-                                Temas
+                        <Box mx={1} style={{ cursor: "pointer", color:"#FFE9C9" }}>
+                            <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{fontFamily:"Roboto Mono, monospace" }}>
+                                temas
                             </Typography>
                         </Box>
-                    </Box>
-
-                    <Box display="flex" justifyContent="start">
-                        <Box mx={1} style={{ cursor: "pointer ", color:"#FFE9C9" }}>
-                            <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-                                Cadastrar Tema
+                        <Box mx={1} style={{ cursor: "pointer", color:"#FFE9C9" }}>
+                            <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{fontFamily:"Roboto Mono, monospace" }}>
+                                cadastrar tema
                             </Typography>
                         </Box>
-                    </Box>
-
-                    <Box mx={1} style={{ cursor: "pointer ", color:"#FFE9C9" }}>
-                        <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-                            Logout
-                        </Typography>
-                    </Box>
+                        <Box paddingLeft={70} mx={1} style={{ cursor: "pointer", color:"#FFE9C9" }}>
+                            <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{fontFamily:"Roboto Mono, monospace" }}>
+                                logout
+                            </Typography>
+                        </Box>
 
                 </Toolbar>
             </AppBar>

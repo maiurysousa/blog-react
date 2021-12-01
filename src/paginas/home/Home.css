@@ -14,10 +14,14 @@
 .img{
     display: block;
     margin: 0 auto;
-    border-radius: 100%;
-    border: 10px solid #FFE9C9;
+    height: 500px;
+    width: 675px;
 }
 
 .back-page{
     background-color: #FCCBDE;
+}
+
+.py-typography{
+    padding-top: 150px;
 }
