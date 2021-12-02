@@ -1,3 +1,23 @@
 .color-navbar{
     background-color: #7E4997;
 }
+  
+  /* Adicionar cor de links ao passar o mouse 
+  .color-navbar hover {
+    background-color: #FCCBDE;
+    color: #F19C9F;
+  }*/
+
+.cursor{
+    cursor: pointer;
+}
+
+.fonte{
+    color: #FFE9C9;
+    font-family: Roboto Mono, monospace !important; 
+}
+
+.text-decoration-none{
+    text-decoration: none;
+}
+

@@ -1,0 +1,24 @@
+.box1{
+    background-color: #FCCBDE;
+    height: 120px;
+}
+
+.texto1{
+    color: #7E4997;
+    font-family: Roboto Mono, monospace;
+}
+
+.redes{
+    font-size: 60px !important;
+    color: #7E4997;
+}
+
+.box2{
+    background-color: #7E4997;
+    height: 60px;
+}
+
+.texto2{
+    color: #FFE9C9;
+    font-family:Roboto Mono, monospace; 
+}

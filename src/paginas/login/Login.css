@@ -1,30 +1,32 @@
-.titulo{
+.textos{
+    font-weight: bold !important;
+    font-family: Roboto Mono, monospace !important;
     color: #7E4997 !important;
-    font-Weight: bold !important; 
-    font-family:Roboto Mono, monospace !important;
-    text-align: center;
 }
 
-.titulo2{
+.textos2{
+    font-weight: bold !important;
+    font-family: Roboto Mono, monospace !important;
     color: #F19C9F !important;
-    font-Weight: bold !important; 
-    font-family:Roboto Mono, monospace !important;
-    text-align: center;
+    padding-top: 35% !important;
 }
 
-.botao{
+.textfield{
+    border: 2px solid #FFE9C9 !important;
+    background-color: #fff !important;
+    font-family:Roboto Mono, monospace !important;
+    border-radius: 10%;
+}
+
+.botao1{
     border-color: #7E4997 !important;
-    background-color:#FFE9C9 !important;
+    background-color:#F19C9F !important;
     color: #7E4997 !important;
     font-family:Roboto Mono, monospace !important;
-    margin-top: 30px !important;
+    margin-top: 30px;
 }
 
-.py-box1{
-    padding-top: 150px;
-}
-
-.imagem1{
+.imagem-login{
     background-image: url("../../assets/img/back-page-2.jpg");
     background-repeat: no-repeat;
     width: 100vh;
@@ -32,16 +34,16 @@
     background-size: cover;
     background-position: center;
 }
-.imagem2{
-    background-image: url("../../assets/img/back-page-6.jpg");
+
+.imagem{
+    background-image: url("../../assets/img/back-page-4.jpg");
     background-repeat: no-repeat;
     width: 100vh;
     min-height: 100vh;
     background-size: cover;
     background-position: center;
 }
-/*
-    display: block;
-    margin: 0 auto;
-    height: 500px;
-    width: 675px;*/
+
+.text-decorator-none{
+    text-decoration: none !important;
+}

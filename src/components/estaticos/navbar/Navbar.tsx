@@ -5,6 +5,7 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
+import { Link } from 'react-router-dom';
 import './Navbar.css';
 
 function Navbar() {
@@ -22,36 +23,38 @@ function Navbar() {
                         <MenuIcon />
                     </IconButton>
 
-                        <Box paddingX={3.5} style={{ cursor: "pointer ", color:"#FFE9C9"}} >
-                            <Typography variant="h5" component="div" sx={{ flexGrow: 1 }}  style={{fontFamily:"Roboto Mono, monospace" }}>
+                        <Box paddingX={3.5} className="cursor" >
+                            <Typography variant="h5" component="div" className="fonte" sx={{ flexGrow: 1 }}>
                                 BlogPessoal
                             </Typography>
                         </Box>
-                        <Box mx={1} style={{ cursor: "pointer", color:"#FFE9C9" }}>
-                            <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{fontFamily:"Roboto Mono, monospace" }}>
+                        <Box mx={1} className="cursor">
+                            <Typography variant="h6" component="div" className="fonte" sx={{ flexGrow: 1 }}>
                                 home
                             </Typography>
                         </Box>
-                        <Box mx={1} style={{ cursor: "pointer", color:"#FFE9C9" }}>
-                            <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{fontFamily:"Roboto Mono, monospace" }}>
+                        <Box mx={1} className="cursor">
+                            <Typography variant="h6" component="div" className="fonte" sx={{ flexGrow: 1 }}>
                                 postagens
                             </Typography>
                         </Box>
-                        <Box mx={1} style={{ cursor: "pointer", color:"#FFE9C9" }}>
-                            <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{fontFamily:"Roboto Mono, monospace" }}>
+                        <Box mx={1} className="cursor">
+                            <Typography variant="h6" component="div" className="fonte" sx={{ flexGrow: 1 }}>
                                 temas
                             </Typography>
                         </Box>
-                        <Box mx={1} style={{ cursor: "pointer", color:"#FFE9C9" }}>
-                            <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{fontFamily:"Roboto Mono, monospace" }}>
+                        <Box mx={1} className="cursor">
+                            <Typography variant="h6" component="div" className="fonte" sx={{ flexGrow: 1 }}>
                                 cadastrar tema
                             </Typography>
                         </Box>
-                        <Box paddingLeft={70} mx={1} style={{ cursor: "pointer", color:"#FFE9C9" }}>
-                            <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{fontFamily:"Roboto Mono, monospace" }}>
-                                logout
-                            </Typography>
-                        </Box>
+                        <Link  to='/login' className='text-decoration-none'>
+                            <Box paddingLeft={70} mx={1} className="cursor">
+                                <Typography variant="h6" component="div" className="fonte" sx={{ flexGrow: 1 }}>
+                                    logout
+                                </Typography>
+                            </Box>
+                        </Link>
 
                 </Toolbar>
             </AppBar>
