@@ -28,11 +28,13 @@ function Navbar() {
                                 BlogPessoal
                             </Typography>
                         </Box>
+                        <Link  to='/home' className='text-decoration-none'>
                         <Box mx={1} className="cursor">
                             <Typography variant="h6" component="div" className="fonte" sx={{ flexGrow: 1 }}>
                                 home
                             </Typography>
                         </Box>
+                        </Link>
                         <Box mx={1} className="cursor">
                             <Typography variant="h6" component="div" className="fonte" sx={{ flexGrow: 1 }}>
                                 postagens
