@@ -1,14 +1,13 @@
 .imagem-cadastro{
-    background-image: url('../../assets/img/back-page-4.jpg');
-    background-repeat: no-repeat;
-    width: 100vh;
-    min-height: 100vh;
-    background-size: cover;
-    background-position: center;
+    margin-left: 75px;
+    width:510px;
+    height:653px; 
+    border-radius: 5%;
+    box-shadow: 5px 5px 12px 5px rgba(0,0,0,0.48);
 }
 
 .imagem-cadastro2{
-    background-image: url('../../assets/img/back-page-2.jpg');
+    background-image: url('../../assets/img/page-3.jpg');
     background-repeat: no-repeat;
     width: 100vh;
     min-height: 100vh;
@@ -19,7 +18,7 @@
 .textos3{
     font-weight: bold !important;
     font-family:Roboto Mono, monospace !important;
-    color: #F19C9F !important;
+    color:#F4A0BA !important;
     padding-top: 25%;
 }
 

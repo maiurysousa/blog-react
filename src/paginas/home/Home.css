@@ -1,21 +1,36 @@
+.caixa{
+    background-color: #FEFDCD;
+    width: 100vh;
+    min-height: 100vh;
+}
+
+.imagem1{
+    background-image: url("../../assets/img/page-2.jpg");
+    background-repeat: no-repeat;
+    width: 100vh;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
 .titulo{
-    color: #7E4997 !important;
+    color: #F4A0BA !important;
     font-Weight: bold !important; 
     font-family:Roboto Mono, monospace !important;
     text-align: center;
 }
 
 .titulo2{
-    color: #F19C9F !important;
+    color: #C1AFE3 !important;
     font-Weight: bold !important; 
     font-family:Roboto Mono, monospace !important;
     text-align: center;
 }
 
 .botao{
-    border-color: #7E4997 !important;
-    background-color:#FFE9C9 !important;
-    color: #7E4997 !important;
+    border-color: #F4A0BA !important;
+    background-color:#FEFDCD !important;
+    color: #F4A0BA !important;
     font-family:Roboto Mono, monospace !important;
     margin-top: 30px !important;
 }
@@ -24,22 +39,40 @@
     padding-top: 150px;
 }
 
-.imagem1{
-    background-image: url("../../assets/img/back-page-2.jpg");
-    background-repeat: no-repeat;
+.card1{
+    width:220px;
+    height:320px; 
+    border-radius: 5%;
+    box-shadow: 5px 5px 12px 5px rgba(0,0,0,0.48);
+}
+
+.card2{
+    width:220px;
+    height:320px;  
+    margin-left: 220px;
+    border-radius: 5%;
+    box-shadow: 5px 5px 12px 5px rgba(0,0,0,0.48);
+}
+
+.card3{
+    width:220px;
+    height:320px; 
+    margin-left: 220px;
+    border-radius: 5%;
+    box-shadow: 5px 5px 12px 5px rgba(0,0,0,0.48);
+}
+.caixa2{
+    background-color: #FFCEE3;
     width: 100vh;
     min-height: 100vh;
-    background-size: cover;
-    background-position: center;
 }
-.imagem2{
-    background-image: url("../../assets/img/back-page-6.jpg");
-    background-repeat: no-repeat;
-    width: 100vh;
-    min-height: 100vh;
-    background-size: cover;
-    background-position: center;
-}
+
+/*.boxcard{
+    background-color: #C1AFE3;
+    width: 33vh;
+    height: 33vh;
+}*/
+
 /*
     display: block;
     margin: 0 auto;

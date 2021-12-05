@@ -46,7 +46,7 @@ function Login() {
         }
 
     return (
-        <Grid container direction='row' justifyContent='center' alignItems='center'>
+        <Grid container direction='row' justifyContent='center' alignItems='center' className="caixa">
             <Grid alignItems='center' xs={6} className="imagem-login">
                 <Box paddingX={20}>
                     <form onSubmit={onSubmit}>
@@ -72,8 +72,8 @@ function Login() {
                     </Box>
                 </Box>
             </Grid>
-            <Grid xs={6} className="imagem">
-
+            <Grid xs={6}  justifyContent='center' style={{ backgroundColor: "#A0F2EE" }}>
+                <img src="https://i.imgur.com/utH9zUO.jpg" alt="" className="imagem" />
             </Grid>
         </Grid>
     );

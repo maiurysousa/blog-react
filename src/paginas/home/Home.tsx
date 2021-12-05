@@ -18,11 +18,12 @@ function Home() {
                         </Box>
                         <Button variant="outlined" className="botao">Ver Postagens</Button>
                     </Box>
-
                 </Grid>
 
-                <Grid item xs={12} sm={6} className="imagem2">
-                
+                <Grid item xs={12} sm={6} className="caixa" >
+                    <img src="https://i.imgur.com/W7NKZ8X.jpg" alt="" className="card1" />
+                    <img src="https://i.imgur.com/xcim1EI.jpg" alt="" className="card2" />
+                    <img src="https://i.imgur.com/QF8DNVi.jpg" alt="" className="card3" />
                 </Grid>
 
                 <Grid xs={12} className="postagens">                    

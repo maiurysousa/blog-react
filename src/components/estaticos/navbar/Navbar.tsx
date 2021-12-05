@@ -14,49 +14,52 @@ function Navbar() {
             <AppBar position="static">
                 <Toolbar variant="dense" className="color-navbar">
                     <IconButton
-                          size="large"
-                          edge="start"
-                          style={{ color:"#FFE9C9" }}
-                          aria-label="menu"
-                          sx={{ mr: 2 }}
+                        size="large"
+                        edge="start"
+                        style={{ color: "#FFE9C9" }}
+                        aria-label="menu"
+                        sx={{ mr: 2 }}
                     >
                         <MenuIcon />
                     </IconButton>
 
-                        <Box paddingX={3.5} className="cursor" >
+                    <Box paddingX={3.5} className="cursor" >
+                        <Link to='/home' className='text-decoration-none'>
                             <Typography variant="h5" component="div" className="fonte" sx={{ flexGrow: 1 }}>
                                 BlogPessoal
                             </Typography>
-                        </Box>
-                        <Link  to='/home' className='text-decoration-none'>
+                        </Link>
+
+                    </Box>
+                    <Link to='/home' className='text-decoration-none'>
                         <Box mx={1} className="cursor">
                             <Typography variant="h6" component="div" className="fonte" sx={{ flexGrow: 1 }}>
                                 home
                             </Typography>
                         </Box>
-                        </Link>
-                        <Box mx={1} className="cursor">
+                    </Link>
+                    <Box mx={1} className="cursor">
+                        <Typography variant="h6" component="div" className="fonte" sx={{ flexGrow: 1 }}>
+                            postagens
+                        </Typography>
+                    </Box>
+                    <Box mx={1} className="cursor">
+                        <Typography variant="h6" component="div" className="fonte" sx={{ flexGrow: 1 }}>
+                            temas
+                        </Typography>
+                    </Box>
+                    <Box mx={1} className="cursor">
+                        <Typography variant="h6" component="div" className="fonte" sx={{ flexGrow: 1 }}>
+                            cadastrar tema
+                        </Typography>
+                    </Box>
+                    <Link to='/login' className='text-decoration-none'>
+                        <Box paddingLeft={70} mx={1} className="cursor">
                             <Typography variant="h6" component="div" className="fonte" sx={{ flexGrow: 1 }}>
-                                postagens
+                                logout
                             </Typography>
                         </Box>
-                        <Box mx={1} className="cursor">
-                            <Typography variant="h6" component="div" className="fonte" sx={{ flexGrow: 1 }}>
-                                temas
-                            </Typography>
-                        </Box>
-                        <Box mx={1} className="cursor">
-                            <Typography variant="h6" component="div" className="fonte" sx={{ flexGrow: 1 }}>
-                                cadastrar tema
-                            </Typography>
-                        </Box>
-                        <Link  to='/login' className='text-decoration-none'>
-                            <Box paddingLeft={70} mx={1} className="cursor">
-                                <Typography variant="h6" component="div" className="fonte" sx={{ flexGrow: 1 }}>
-                                    logout
-                                </Typography>
-                            </Box>
-                        </Link>
+                    </Link>
 
                 </Toolbar>
             </AppBar>

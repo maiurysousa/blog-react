@@ -1,3 +1,12 @@
+.imagem-login{
+    background-image: url("../../assets/img/page-5.jpg");
+    background-repeat: no-repeat;
+    width: 100vh;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
 .textos{
     font-weight: bold !important;
     font-family: Roboto Mono, monospace !important;
@@ -7,12 +16,12 @@
 .textos2{
     font-weight: bold !important;
     font-family: Roboto Mono, monospace !important;
-    color: #F19C9F !important;
+    color: #F4A0BA !important;
     padding-top: 35% !important;
 }
 
 .textfield{
-    border: 2px solid #FFE9C9 !important;
+    border: 2px solid #C1AFE3 !important;
     background-color: #fff !important;
     font-family:Roboto Mono, monospace !important;
     border-radius: 10%;
@@ -20,28 +29,18 @@
 
 .botao1{
     border-color: #7E4997 !important;
-    background-color:#F19C9F !important;
+    background-color:#F4A0BA !important;
     color: #7E4997 !important;
     font-family:Roboto Mono, monospace !important;
     margin-top: 30px;
 }
 
-.imagem-login{
-    background-image: url("../../assets/img/back-page-2.jpg");
-    background-repeat: no-repeat;
-    width: 100vh;
-    min-height: 100vh;
-    background-size: cover;
-    background-position: center;
-}
-
 .imagem{
-    background-image: url("../../assets/img/back-page-4.jpg");
-    background-repeat: no-repeat;
-    width: 100vh;
-    min-height: 100vh;
-    background-size: cover;
-    background-position: center;
+    margin-left: 75px;
+    width:510px;
+    height:653px; 
+    border-radius: 5%;
+    box-shadow: 5px 5px 12px 5px rgba(0,0,0,0.48);
 }
 
 .text-decorator-none{
