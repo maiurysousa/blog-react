@@ -1,8 +1,20 @@
-import React from 'react';
+import React, { useState, useEffect, ChangeEvent } from 'react';
 import {Typography, Box, Grid, Button} from '@material-ui/core';
+import { Link, useHistory } from 'react-router-dom';
+import useLocalStorage from 'react-use-localstorage';
 import './Home.css';
 
 function Home() {
+    let history = useHistory();
+    const [token, setToken] = useLocalStorage('token');
+
+    useEffect(() => {
+        if(token == ''){
+            history.push('/login')
+        }
+
+    },[token]);
+    
     return (
         <>
             <Grid container direction="row" justifyContent="center" alignItems="center" className="caixa">

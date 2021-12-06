@@ -5,10 +5,19 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
-import { Link } from 'react-router-dom';
+import useLocalStorage from 'react-use-localstorage';
+import { Link, useHistory } from 'react-router-dom';
 import './Navbar.css';
 
 function Navbar() {
+
+    let history = useHistory(); // para redirecionar
+    const [token, setToken] = useLocalStorage('token'); // para guardar o token no localstorage
+    function logout(){
+        setToken(''); // para apagar o token do localstorage
+        history.push('/login'); // para redireccionar a página de login
+    }
+
     return (
         <Box sx={{ flexGrow: 1 }}>
             <AppBar position="static">
@@ -29,8 +38,8 @@ function Navbar() {
                                 BlogPessoal
                             </Typography>
                         </Link>
-
                     </Box>
+
                     <Link to='/home' className='text-decoration-none'>
                         <Box mx={1} className="cursor">
                             <Typography variant="h6" component="div" className="fonte" sx={{ flexGrow: 1 }}>
@@ -38,28 +47,31 @@ function Navbar() {
                             </Typography>
                         </Box>
                     </Link>
+
                     <Box mx={1} className="cursor">
                         <Typography variant="h6" component="div" className="fonte" sx={{ flexGrow: 1 }}>
                             postagens
                         </Typography>
                     </Box>
+
                     <Box mx={1} className="cursor">
                         <Typography variant="h6" component="div" className="fonte" sx={{ flexGrow: 1 }}>
                             temas
                         </Typography>
                     </Box>
+
                     <Box mx={1} className="cursor">
                         <Typography variant="h6" component="div" className="fonte" sx={{ flexGrow: 1 }}>
                             cadastrar tema
                         </Typography>
                     </Box>
-                    <Link to='/login' className='text-decoration-none'>
+
                         <Box paddingLeft={70} mx={1} className="cursor">
-                            <Typography variant="h6" component="div" className="fonte" sx={{ flexGrow: 1 }}>
+                            <Typography variant="h6" component="div" className="fonte, text-decoration-none" sx={{ flexGrow: 1 }} onClick={()=> logout()}>
                                 logout
                             </Typography>
                         </Box>
-                    </Link>
+
 
                 </Toolbar>
             </AppBar>
