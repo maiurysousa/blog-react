@@ -67,7 +67,7 @@ function Navbar() {
                     </Box>
 
                         <Box paddingLeft={70} mx={1} className="cursor">
-                            <Typography variant="h6" component="div" className="fonte, text-decoration-none" sx={{ flexGrow: 1 }} onClick={()=> logout()}>
+                            <Typography variant="h6" component="div" className="fonte" sx={{ flexGrow: 1 }} onClick={()=> logout()}>
                                 logout
                             </Typography>
                         </Box>
