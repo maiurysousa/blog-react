@@ -56,7 +56,7 @@ function Navbar() {
                         </Box>
                     </Link>
 
-                    <Link to="/temas" className="text-decorator-none">
+                    <Link to="/tema" className="text-decorator-none">
                         <Box mx={1} className="cursor">
                             <Typography variant="h6" component="div" className="fonte" sx={{ flexGrow: 1 }}>
                                 temas

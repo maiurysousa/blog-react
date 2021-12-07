@@ -1,12 +1,6 @@
 .color-navbar{
     background-color: #7DD7D8;
 }
-  
-  /* Adicionar cor de links ao passar o mouse 
-  .color-navbar hover {
-    background-color: #FCCBDE;
-    color: #F19C9F;
-  }*/
 
 .cursor{
     cursor: pointer;

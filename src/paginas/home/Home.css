@@ -2,6 +2,16 @@
     background-color: #FEFDCD;
     width: 100vh;
     min-height: 100vh;
+    padding-top: 3px;
+}
+
+@media only screen and ( max-width: 600px ){
+    .caixa > img{
+        margin-top: 15px;
+        width: 170px;
+        height:255px;
+        margin-left: 30% ;    
+    }
 }
 
 .imagem1{
@@ -20,6 +30,13 @@
     text-align: center;
 }
 
+/*@media only screen and ( max-width: 600px ){
+    .titulo {
+        text-align: center;
+    
+    }
+}*/
+
 .titulo2{
     color: #C1AFE3 !important;
     font-Weight: bold !important; 
@@ -28,11 +45,12 @@
 }
 
 .botao{
-    border-color: #F4A0BA !important;
-    background-color:#FEFDCD !important;
-    color: #F4A0BA !important;
+    border: 2px #FEFDCD !important;
+    background-color: #F4A0BA !important;
+    color: #FEFDCD !important;
     font-family:Roboto Mono, monospace !important;
     margin-top: 30px !important;
+    margin-bottom: 30px !important;
 }
 
 .py-box1{
@@ -61,12 +79,12 @@
     border-radius: 5%;
     box-shadow: 5px 5px 12px 5px rgba(0,0,0,0.48);
 }
+
 .caixa2{
     background-color: #FFCEE3;
     width: 100vh;
     min-height: 100vh;
 }
-
 
 /*.boxcard{
     background-color: #C1AFE3;
@@ -74,8 +92,3 @@
     height: 33vh;
 }*/
 
-/*
-    display: block;
-    margin: 0 auto;
-    height: 500px;
-    width: 675px;*/
