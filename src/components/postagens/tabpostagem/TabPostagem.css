@@ -1,0 +1,9 @@
+.titulo{
+    font-weight: bold;
+ }
+
+ .tab-postagens{
+    background-color: #F4A0BA !important;
+    color: #FEFDCD !important; 
+    font-family: Roboto Mono, monospace !important; 
+}

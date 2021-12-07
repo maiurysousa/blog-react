@@ -13,7 +13,7 @@ function Navbar() {
 
     let history = useHistory(); // para redirecionar
     const [token, setToken] = useLocalStorage('token'); // para guardar o token no localstorage
-    function logout(){
+    function logout() {
         setToken(''); // para apagar o token do localstorage
         history.push('/login'); // para redireccionar a página de login
     }
@@ -35,7 +35,7 @@ function Navbar() {
                     <Box paddingX={3.5} className="cursor" >
                         <Link to='/home' className='text-decoration-none'>
                             <Typography variant="h5" component="div" className="fonte" sx={{ flexGrow: 1 }}>
-                                BlogPessoal
+                                FlóreoBlog
                             </Typography>
                         </Link>
                     </Box>
@@ -48,29 +48,35 @@ function Navbar() {
                         </Box>
                     </Link>
 
-                    <Box mx={1} className="cursor">
-                        <Typography variant="h6" component="div" className="fonte" sx={{ flexGrow: 1 }}>
-                            postagens
-                        </Typography>
-                    </Box>
-
-                    <Box mx={1} className="cursor">
-                        <Typography variant="h6" component="div" className="fonte" sx={{ flexGrow: 1 }}>
-                            temas
-                        </Typography>
-                    </Box>
-
-                    <Box mx={1} className="cursor">
-                        <Typography variant="h6" component="div" className="fonte" sx={{ flexGrow: 1 }}>
-                            cadastrar tema
-                        </Typography>
-                    </Box>
-
-                        <Box paddingLeft={70} mx={1} className="cursor">
-                            <Typography variant="h6" component="div" className="fonte" sx={{ flexGrow: 1 }} onClick={()=> logout()}>
-                                logout
+                    <Link to="/posts" className="text-decorator-none">
+                        <Box mx={1} className="cursor">
+                            <Typography variant="h6" component="div" className="fonte" sx={{ flexGrow: 1 }}>
+                                postagens
                             </Typography>
                         </Box>
+                    </Link>
+
+                    <Link to="/temas" className="text-decorator-none">
+                        <Box mx={1} className="cursor">
+                            <Typography variant="h6" component="div" className="fonte" sx={{ flexGrow: 1 }}>
+                                temas
+                            </Typography>
+                        </Box>
+                    </Link>
+
+                    <Link to="/formularioTema" className="text-decorator-none">
+                        <Box mx={1} className="cursor">
+                            <Typography variant="h6" component="div" className="fonte" sx={{ flexGrow: 1 }}>
+                                cadastrar tema
+                            </Typography>
+                        </Box>
+                    </Link>
+
+                    <Box paddingLeft={70} mx={1} className="cursor">
+                        <Typography variant="h6" component="div" className="fonte" sx={{ flexGrow: 1 }} onClick={() => logout()}>
+                            logout
+                        </Typography>
+                    </Box>
 
 
                 </Toolbar>
