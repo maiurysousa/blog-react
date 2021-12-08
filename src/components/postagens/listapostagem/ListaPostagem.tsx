@@ -60,7 +60,7 @@ function ListaPostagem() {
 
                   <Link to={`/formularioPostagem/${post.id}`} className="text-decorator-none cor-fonte" >
                     <Box mx={1}>
-                      <Button variant="contained" className="marginLeft botao1" size='small'>
+                      <Button variant="contained" className="marginLeft botao-atualizar" size='small'>
                         atualizar
                       </Button>
                     </Box>
@@ -68,7 +68,7 @@ function ListaPostagem() {
                   
                   <Link to={`/deletarPostagem/${post.id}`} className="text-decorator-none cor-fonte2">
                     <Box mx={1}>
-                      <Button variant="contained" size='small' className=" botao2">
+                      <Button variant="contained" size='small' className="botao-deletar">
                         deletar
                       </Button>
                     </Box>

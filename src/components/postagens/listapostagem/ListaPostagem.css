@@ -5,19 +5,19 @@
 .cor-fonte{
     color: #FEFDCD !important;
 }
-/*
-.botao2{
-    border-color: #7E4997 !important;
-    background-color: antiquewhite !important;
-    color: #7E4997 !important;
+
+.botao-atualizar{
+    border-color: 1px #F4A0BA !important;
+    background-color: #A0F2EE !important;
+    color: #F4A0BA !important;
     font-family:Roboto Mono, monospace !important;
     margin-top: 30px;
 }
 
-.botao1{
-    border-color: #7E4997 !important;
-    background-color:#F4A0BA !important;
-    color: #7E4997 !important;
+.botao-deletar{
+    border-color: 1px #FEFDCD  !important;
+    background-color: #F4A0BA !important;
+    color: #FEFDCD !important;
     font-family:Roboto Mono, monospace !important;
     margin-top: 30px;
-}*/
+}
