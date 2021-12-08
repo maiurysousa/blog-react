@@ -44,7 +44,7 @@ function ListaPostagem() {
                 <Typography color="textSecondary" gutterBottom className="fonte1">
                   Postagens
                 </Typography>
-                <Typography variant="h5" component="h2" className="titulo2">
+                <Typography variant="h5" component="h2" className="fonte1">
                   {post.titulo}
                 </Typography>
                 <Typography variant="body2" component="p" className="fonte1">
