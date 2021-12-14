@@ -42,15 +42,7 @@ function Navbar() {
         navbarComponent = <Box sx={{ flexGrow: 1 }}>
         <AppBar position="static">
             <Toolbar variant="dense" className="color-navbar">
-                <IconButton
-                    size="large"
-                    edge="start"
-                    style={{ color: "#FFE9C9" }}
-                    aria-label="menu"
-                    sx={{ mr: 2 }}
-                >
-                    <MenuIcon />
-                </IconButton>
+
 
                 <Box paddingX={3.5} className="cursor" >
                     <Link to='/home' className='text-decoration-none'>
@@ -92,12 +84,11 @@ function Navbar() {
                     </Box>
                 </Link>
 
-                <Box paddingLeft={70} mx={1} className="cursor" onClick={() => goLogout()}>
+                <Box mx={1} className="cursor" marginLeft="auto" onClick={() => goLogout()}>
                     <Typography variant="h6" component="div" className="fonte" sx={{ flexGrow: 1 }} >
                         logout
                     </Typography>
                 </Box>
-
 
             </Toolbar>
         </AppBar>

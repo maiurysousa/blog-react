@@ -51,7 +51,7 @@ function ListaPostagem() {
     <>
       {
         posts.map(post => (
-          <Box m={2} >
+          <Box m={2}>
             <Card variant="outlined" className="card">
               <CardContent >
                 <Typography color="textSecondary" gutterBottom className="fonte1">
@@ -69,7 +69,7 @@ function ListaPostagem() {
               </CardContent>
 
               <CardActions>
-                <Box display="flex" justifyContent="center" mb={1.5}>
+                <Box display="flex" alignItems="center" justifyContent="center" mb={1.5}>
 
                   <Link to={`/formularioPostagem/${post.id}`} className="text-decorator-none cor-fonte" >
                     <Box mx={1}>

@@ -39,15 +39,15 @@ function Home() {
 
                     <Box paddingX={20} className="py-box1">
                         <Typography variant="h3" component="h2" align="center" className="titulo">Seja bem vinde!</Typography>
-                        <Typography variant="h5" component="h4" align="center" className="titulo2">Fique à vontade para falar sobre as coisas da vida. Expresse aqui os seus pensamentos e opiniões!</Typography>
+                        <Typography variant="h5" component="h4" align="center" className="titulo2">Fique à vontade para falar sobre as coisas da vida.Expresse aqui os seus pensamentos e opiniões!</Typography>
                     </Box>
 
                     <Box display="flex" justifyContent="center">
                         <Box marginRight={1}>
                         <ModalPostagem />
                         </Box>
-                        <Link to="/postagens">
-                        <Button variant="outlined" className="botao">Ver Postagens</Button>
+                        <Link to="/postagens" className="text-decorator-none">
+                        <Button variant="outlined" className="text-decorator-none botao">Ver Postagens</Button>
                         </Link>
                     </Box>
                 </Grid>
