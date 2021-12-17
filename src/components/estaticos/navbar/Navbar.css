@@ -6,6 +6,11 @@
     cursor: pointer;
 }
 
+.fonte-f{
+    color: #F4A0BA !important;
+    font-family: Roboto Mono, monospace !important;
+}
+
 .fonte{
     color: #FEFDCD;
     font-family: Roboto Mono, monospace !important; 

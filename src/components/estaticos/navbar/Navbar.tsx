@@ -12,6 +12,7 @@ import { TokenState } from '../../../store/tokens/tokensReducer';
 import { useDispatch } from "react-redux";
 import { addToken } from '../../../store/tokens/actions';
 import {toast} from 'react-toastify';
+import MenuComponent from '../menu/MenuComponent';
 
 function Navbar() {
     const token = useSelector<TokenState, TokenState["tokens"]>(
@@ -46,7 +47,7 @@ function Navbar() {
 
                 <Box paddingX={3.5} className="cursor" >
                     <Link to='/home' className='text-decoration-none'>
-                        <Typography variant="h5" component="div" className="fonte" sx={{ flexGrow: 1 }}>
+                        <Typography variant="h5" component="div" className="fonte-f" sx={{ flexGrow: 1 }}>
                             FlóreoBlog
                         </Typography>
                     </Link>
@@ -89,6 +90,12 @@ function Navbar() {
                         logout
                     </Typography>
                 </Box>
+
+                <Box display="flex" justifyContent="start"
+                    marginLeft="auto"
+                       sx={{ display: { xs: 'flex', sm: 'none' } }}>
+                            <MenuComponent/>
+                    </Box>
 
             </Toolbar>
         </AppBar>
