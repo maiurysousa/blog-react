@@ -68,7 +68,7 @@ function Login() {
         }
 
     return (
-        <Grid container direction='row' justifyContent='center' alignItems='center' className="caixa">
+        <Grid container direction='row' justifyContent='center' alignItems='center' className="caixa-login">
             <Grid alignItems='center' xs={6} className="imagem-login">
                 <Box paddingX={20}>
                     <form onSubmit={onSubmit}>

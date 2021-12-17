@@ -6,7 +6,7 @@
     color: #FEFDCD !important;
 }
 
-.botao-atualizar{
+.botao-deletar{
     border-color: 1px #F4A0BA !important;
     background-color: #A0F2EE !important;
     color: #F4A0BA !important;
@@ -14,7 +14,7 @@
     margin-top: 30px;
 }
 
-.botao-deletar{
+.botao-atualizar{
     border-color: 1px #FEFDCD  !important;
     background-color: #F4A0BA !important;
     color: #FEFDCD !important;
